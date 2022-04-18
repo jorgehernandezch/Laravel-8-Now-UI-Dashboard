@@ -1,8 +1,8 @@
-# Laravel 8 - UI Bootstrap y API con JWT Authentication
+# Laravel 8 - Now UI Dashboard
 
 ## Comenzando 🚀
 
-_Sigue las siguientes instruscciones para clonar este repositorio en tu máquina local y poder trabajar con Laravel 8 API con JWT Authentication._
+_Sigue las siguientes instruscciones para clonar este repositorio en tu máquina local y poder trabajar con Laravel 8 Now UI Dashboard._
 
 ### Pre-requisitos 📋
 
@@ -30,13 +30,19 @@ _Sigue las siguientes instrucciones para clonar el repositorio_
 _Clone el repositorio_
 
 ```
-git clone https://github.com/jorgehernandezch/Laravel-8-ui-Api-JWT.git
+git clone https://github.com/jorgehernandezch/Laravel-8-Now-UI-Dashboard.git
 ```
 
 _Instale todas las dependencias del Proyecto con_
 
 ```
 composer install
+```
+
+_Instale todas las dependencias JS con_
+
+```
+npm install
 ```
 
 _Copie el Archivo .env.example en un archivo nuevo .env con_
@@ -51,11 +57,7 @@ _Genere una nueva Key para el protecto con_
 ```
 php artisan key:generate
 ```
-_Genere una nueva Key para JWT con_
 
-```
-php artisan jwt:secret
-```
 _Corra las migraciones del proyecto con_
 
 ```
@@ -73,9 +75,7 @@ _Corra el proyecto con_
 php artisan serve
 ```
 
-_Si todo está correcto puede acceder al proyecto en la dirección http://localhost:8000/api, el sistema devolverá un error en formato JSON diciendo que el usuario no está autenticado, eso significa que la API está funcionando correctamente._
-
-Use Postman o Insomnia para enviar datos GET y POST
+_Si todo está correcto puede acceder al proyecto en la dirección http://localhost:8000, ingrese usuario y contraseña que está por defecto en el formulario de login._
 
 ---
 [Jorge Edo. Hernández](https://github.com/jorgehernandezch)  
